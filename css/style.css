@@ -4525,6 +4525,17 @@ p.contact-p {
 	}
 }
 
-
-
+.navbar-brand {
+  padding: 0px; /* firefox bug fix */
+}
+.navbar-brand>img {
+  height: 100%;
+  padding: 15px; /* firefox bug fix */
+  width: auto;
+ 
+}
+.navbar-brand {
+  background: url(../images/logo.png) center / contain no-repeat;
+  width: 200px;
+}
 /*-- //Responsive Code --*/
